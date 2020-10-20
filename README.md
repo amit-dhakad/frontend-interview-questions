@@ -49,7 +49,7 @@ Interview Questions for frontend
 | No. | Questions |
 | --- | --------- |
 |   | **CSS** |
-|1  | [What is CSS](#what-is-css) |
+|1  | [ What do you understand by pseudo element in CSS? ](#what-do-you-understand-by-pseudo-element-in-css) (Publicis sapient) |
 |2  | 
 
 
@@ -77,5 +77,43 @@ Interview Questions for frontend
  
  ## CSS
  
- 1. ### What is Css?
+ 1. ### What do you understand by pseudo element in CSS?
+ 
+      A CSS pseudo-element is a keyword added to a selector that lets you style a specific part of the selected element(s). For example, ::first-line can be used to change the font of the first line of a paragraph.
+      
+      ## Syntax
+      ```css
+      selector::pseudo-element {
+        property: value;
+       }
+      ```
+      
+      ```css
+      /* The first line of every <p> element. */
+        p::first-line {
+        color: blue;
+       text-transform: uppercase;
+      }
+      ```
+      
+      
+      
+      ## Index of standard pseudo-elements
+       
+      |             |           |          |           | 
+      | ----------  | --------- | -------- | ----------| 
+      | ::after (:after) | ::backdrop | ::before (:before) | ::marker)|
+      | ::cue  | ::cue-region | ::first-letter (:first-letter) | ::first-line (:first-line) |
+      | ::grammar-error | ::marker | ::part() | ::placeholder |
+       | ::selection | :: slotted() | ::spelling-err | 
+ 
+
+     **[⬆ Back to Top](#css)**
+
+
+
+
+
+
+
    
