@@ -1,5 +1,6 @@
-# frontend-interview-questions
-Interview Questions for frontend 
+# Frontend Interview Questions
+
+Interview Questions for frontend developer
 
 
 ### Table of Contents
@@ -36,8 +37,8 @@ Interview Questions for frontend
 | --- | --------- |
 |   | **JavaScript** |
 |1  | [Which javascript design patterns have u worked on?](#which-javascript-design-patterns-have-u-worked-on) (Publicis sapient) |
-|2  | [What is closure in javaScript ] (#What-is-closure-in-javascript) (Publicis sapient)|
-|3  | [Change the context of this keyword in javascript.] (#change-the-context-of-this-keyword-in-javascript) (Publicis sapient)|
+|2  | [What is closure in javascript ](#What-is-closure-in-javascript) (Publicis sapient)|
+|3  | [Change the context of this keyword in javascript.](#change-the-context-of-this-keyword-in-javascript) (Publicis sapient)|
 |4  | [What is this keyword?](#what-is-this-keyword) (Publicis sapient)|
 
 
@@ -46,7 +47,7 @@ Interview Questions for frontend
 | --- | --------- |
 |   | **HTML** |
 |1  | [What do u understand by semantic element or semantic tags?](#what-do-you-understand-by-semantic-element-or-semantic-tags) (Publicis sapient) |
-|2  | [What are web workers?] (#what-are-web-workers) (Publicis sapient) | 
+|2  | [What are web workers?](#what-are-web-workers) (Publicis sapient) | 
 |3  | [What are data attributes in html?](#what-are-data-attributes-in-html)(Publicis sapient)|
 
 
@@ -55,18 +56,8 @@ Interview Questions for frontend
 | --- | --------- |
 |   | **CSS** |
 |1  | [ What do you understand by pseudo element in CSS? ](#what-do-you-understand-by-pseudo-element-in-css) (Publicis sapient) |
-|2  | [ What is Specificity in css.](#what-is-pecificity-in-css) (Publicis sapient) |
+|2  | [ What is Specificity in css.](#what-is-specificity-in-css) (Publicis sapient) |
 |3  | Which css library have u worked on? (Publicis sapient) |
-
-
-
-
-
-What do u understand by semantic element or semantic tags.
-
-
-Which css library have u worked on.
-
 
 
 
@@ -86,7 +77,7 @@ Which css library have u worked on.
    
    
  ## JavaScript
- 1. Which javascript design patterns have u worked on.
+ 1. ### Which javascript design patterns have u worked on.
     # read digitalocean blog :
       https://www.digitalocean.com/community/tutorial_series/javascript-design-patterns
  
@@ -94,7 +85,7 @@ Which css library have u worked on.
  
  
  
- 2. What is closure in javaScript
+ 2. ### What is closure in javascript
  
  A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function’s scope from an inner function. In JavaScript, closures are created every time a function is created, at function creation time.
  
@@ -113,7 +104,7 @@ init() creates a local variable called name and a function called displayName().
  **[⬆ Back to Top](#javascript)**
  
  
- 3. Change the context of this keyword in javascript.
+ 3. ### Change the context of this keyword in javascript.
  
  ## No, it's not possible.
 
@@ -138,7 +129,7 @@ This function returns a new function which has a different value of this. It tak
   **[⬆ Back to Top](#javascript)**
   
   
-4. What is this keyword? 
+4. ### What is this keyword? 
 
 What is this?
 The JavaScript this keyword refers to the object it belongs to.
@@ -156,7 +147,7 @@ Methods like call(), and apply() can refer this to any object.
  
  ## HTML
  
- 1. What do u understand by semantic element or semantic tags?
+ 1. ### What do you understand by semantic element or semantic tags?
 
 A semantic element clearly describes its meaning to both the browser and the developer.
 Semantic elements = elements with a meaning.
@@ -169,7 +160,7 @@ Examples of semantic elements: <form>, <table>, and <article> - Clearly defines 
     
   
 
-2. What are web workers.
+2. ### What are web workers.
    
    A web worker is a JavaScript running in the background, without affecting the performance of the page.
 
@@ -181,7 +172,7 @@ A web worker is a JavaScript that runs in the background, independently of other
    **[⬆ Back to Top](#html)**  
    
    
- 3. What are data attributes in html?
+ 3. ### What are data attributes in html?
  
    The data-* attribute is used to store custom data private to the page or application.
 
@@ -236,7 +227,7 @@ The attribute value can be any string
 
 
 
-  2. What is Specificity in css? 
+  2. ### What is Specificity in css? 
   
   
   If there are two or more conflicting CSS rules that point to the same element, the browser follows some rules to determine which one is most specific and therefore wins out.
